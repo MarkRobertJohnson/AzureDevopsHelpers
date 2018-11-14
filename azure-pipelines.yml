@@ -3,7 +3,7 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 variables:
-- group: General
+- group: mj-general
 
 name: $(Build.DefinitionName)_$(GitVersion.InformationalVersion)
 pool:
